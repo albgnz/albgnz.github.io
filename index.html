@@ -31,18 +31,43 @@
           <h1>Cerveau Labs</h1>
           <p>@ github.io </p>
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/albgnz">albgnz</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+          <span class="credits left">Project maintained by <a href="https://github.com/albgnz">Albert Gonzalez</a></span>
+          <span class="credits right">Threat Intelligence | Data Visualization | Analytics </span>
 
         <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>Threat Intelligence piece consists of a few simple scripts at the moment. They facilitate the updating, caching and forwarding of threat intel
+data to a remote system for analytics.</p>
+<pre><code>blocklists::
+abusechff http://dnsbl.abuse.ch/fastfluxtracker.php
+abusechweb http://dnsbl.abuse.ch/webabusetracker.php
+arbor http://atlas-public.ec2.arbor.net/public/ssh_attackers
+autoshun http://www.autoshun.org/files/shunlist.csv
+badguys http://www.t-arend.de/linux/badguys.txt
+blacklisted http://www.infiltrated.net/blacklisted
+brawg http://www.brawg.com/hosts.deny
+cleanmxv http://support.clean-mx.de/clean-mx/xmlviruses?response=alive&format=csv&fields=url,ip,domain&domain=
+cleanmxp http://support.clean-mx.de/clean-mx/xmlphishing?response=alive&format=csv&fields=url,ip,domain&domain=
+danger http://danger.rulez.sk/projects/bruteforceblocker/blist.php
+denyhost http://stats.denyhosts.net/stats.html
+dshield http://www.dshield.org/ipsascii.html?limit=5000
+dynastop http://dynastop.tanaya.net/DynaStop.BleedingThreats.conf
+emergingthreats http://www.emergingthreats.net/rules/bleeding-compromised.rules
+evilssh http://vmx.yourcmc.ru/BAD_HOSTS.IP4
+geopsy http://www.geopsy.org/blacklist.html
+haleys http://charles.the-haleys.org/ssh_dico_attack_hdeny_format.php/hostsdeny.txt
+kidsclinic http://www.kids-clinic.jp/uni/ipaddress/new_log
+kolatzek http://robert.kolatzek.org/possible_botnet_ips.txt
+malekal http://www3.malekal.com/exploit.txt
+maldom http://mirror1.malwaredomains.com/files/domains.txt
+mdl http://www.malwaredomainlist.com/mdl.php?colsearch=All&quantity=All&search=
+prometheus http://downloads.prometheus-group.com/delayed/rules/modsec/domain-blacklist.txt
+skygeo http://sky.geocities.jp/ro_hp_add/ro_hp_add_hosts.txt
+sshbl http://www.sshbl.org/list.txt
+stopforumspam http://www.stopforumspam.com/downloads/bannedips.csv
+surriel rsync://psbl-mirror.surriel.com/psbl/psbl.txt
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
